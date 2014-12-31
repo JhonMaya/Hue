@@ -1,0 +1,205 @@
+<?php exit() ?>--by Jus 189.69.20.167
+if not myHero.charName == "Diana" then return end
+
+--packets
+-- q = 0x99 - spell pos 0x00
+-- r = 0x99 - spell pos 0x03
+
+--------------------------------
+local menu						=	nil 
+local ts 						=	nil
+local Target 					=	nil
+local pred 						=	nil
+local predR 					=	nil
+local myPlayer 					=	GetMyHero()
+--------------------------------
+local lastAttack, lastWindUpTime, lastAttackCD = 0,0,0
+
+function LoadMenu()
+	menu = scriptConfig("[Diana by Jus]", "DianaJus")
+	-- Combo --
+	menu:addSubMenu('[Combo]', "combo")
+	menu.combo:addParam("", "- Combo Settings -", SCRIPT_PARAM_INFO, "")
+	menu.combo:addParam("mode", "Q and R mode", SCRIPT_PARAM_LIST, 1, { "R", "Q"})
+	menu.combo:addParam("q", "Use (Q)", SCRIPT_PARAM_ONOFF, true)
+	menu.combo:addParam("w", "Use (W)", SCRIPT_PARAM_ONOFF, true)
+	menu.combo:addParam("e", "Use (E)", SCRIPT_PARAM_ONOFF, true)
+	menu.combo:addParam("r", "Use (R)", SCRIPT_PARAM_ONOFF, true)	
+	menu.combo:addParam("key", "Combo key", SCRIPT_PARAM_ONKEYDOWN, false, 32)
+	-- Draw --
+
+	-- menu:addSubMenu('[Draw Options]', 'draw')
+	-- menu.draw:addParam("q", "(Q) range", SCRIPT_PARAM_ONOFF, true)
+	-- menu.draw:addParam("w", "(W) range", SCRIPT_PARAM_ONOFF, true)
+	-- menu.draw:addParam("e", "(E) range", SCRIPT_PARAM_ONOFF, true)
+	-- menu.draw:addParam("r", "(R) range", SCRIPT_PARAM_ONOFF, true)
+
+
+end
+
+function Configuration()
+	ts = TargetSelector(TARGET_LESS_CAST, 1000, DAMAGE_MAGIC, true, true)
+	pred = TargetPredictionVIP(800, 1500, 0.25, 75, myPlayer) -- range 900, width 75, speed 1500, delay 0.5
+	predR = TargetPredictionVIP(800, 1500, 0.25, 75, myPlayer) -- range 900, width 75, speed 1500, delay 0.5
+end
+
+function OnLoad()
+	LoadMenu()
+	Configuration()
+	print("Diana Loaded")
+end
+
+function SendQ()
+	if not menu.combo.q then return end
+	if Target ~= nil then
+		local Pos = pred:GetPrediction(Target)
+		if Pos then
+			--local newPos = Pos + (Vector(myPlayer) - Pos):normalized()*(GetDistance(Pos)*-1)
+			CastSpell(_Q, Pos.x, Pos.z)
+		end
+	end
+end
+
+function SendR()
+	if not menu.combo.r then return end
+	if Target ~= nil then
+		local Pos = predR:GetPrediction(Target)
+		if Pos then
+			CastSpell(_R, Target)
+		end
+		if myPlayer:CanUseSpell(_Q) == READY then
+			SendQ()
+		end
+	end
+end
+
+function SendW()
+	if not menu.combo.w then return end
+	if Target ~= nil and GetDistance(Target, myPlayer) <= 200 then
+		CastSpell(_W)
+	end
+end
+
+function SendE()
+	if not menu.combo.e then return end
+	if Target ~= nil and GetDistance(Target, myPlayer) > 125 and GetDistance(Target) <= 200 then
+		CastSpell(_E)
+	end
+end
+
+
+local qTick = 0
+local rTick = 0
+
+function OnSendPacket(p)
+	if Target == nil then return end
+	if p.header == 0x99 then
+		p.pos = 1
+		
+		if not p:DecodeF() == myPlayer.networkID then return end
+		local spell = p:Decode1()
+		-- combo mode
+		if menu.combo.mode == 1 and spell == 0x03 then -- R
+				SendQ()
+		elseif menu.combo.mode == 2 and spell == 0x00 then -- Q
+			DelayAction(function() if TargetHaveBuff("dianamoonlight", Target) then SendR() end end, 0.5)
+		end
+	end
+end
+
+function GetMyTarget()
+	ts:update()
+	if ValidTarget(ts.target) then return ts.target end
+end
+
+function heroCanMove()
+    return ( GetTickCount() + GetLatency() / 2 > lastAttack + lastWindUpTime)
+end 
+ 
+function timeToShoot()  
+  return (GetTickCount() + GetLatency() / 2 > lastAttack + lastAttackCD)
+end 
+
+function moveToCursor()  
+  if GetDistance(mousePos) >= 300 then
+    local moveToPos = myPlayer + (Vector(mousePos) - myPlayer):normalized()*300
+    myPlayer:MoveTo(moveToPos.x, moveToPos.z)
+  end   
+end
+
+function OrbWalk(myTarget)
+    if ValidTarget(myTarget) and GetDistance(myTarget) <= 200 then
+        if timeToShoot() then
+         myPlayer:Attack(myTarget)
+        elseif heroCanMove() then
+            moveToCursor()
+        end
+    else
+        moveToCursor()
+    end
+end
+
+--DianaArc = Q
+--DianaTeleport = R
+
+function OnProcessSpell(unit, spell)
+	if unit ~= nil and unit.isMe then 
+		if spell.name:lower():find("attack") then          
+            --[[orbwalk]]             
+            lastAttack      = GetTickCount() - GetLatency() / 2
+            lastWindUpTime  = spell.windUpTime * 1000 -- can move
+            lastAttackCD    = spell.animationTime * 1000 -- can attack
+        end
+        if Target ~= nil and menu.combo.mode == 1 or 2 then
+
+        	if spell.name == "DianaTeleport" then        		
+        		
+        		SendQ()
+        		
+        		--print('2. Process')        		
+        	end
+        	if spell.name == "DianaArc" then        		
+        		DelayAction(function() if TargetHaveBuff("dianamoonlight", Target) then SendR() end end, 0.5)        		
+        	end
+        end
+    end
+end
+
+-- function OnAnimation(unit, animation)
+-- 	if unit ~= nil and unit.isMe and animation ~= nil and animation.name ~= nil then
+-- 		print(animation.name)
+-- 	end
+-- end
+
+--particles
+--passive after 2 AA = Diana_Skin01_P.troy
+--passive onHit =	Diana_Skin01_P_Buf.troy
+
+-- function OnApplyParticle(unit, particle)
+-- 	if unit ~= nil and unit.isMe then
+-- 		print(particle.name)
+-- 	end
+-- end
+
+function OnTick()
+	if myPlayer.dead then return end
+	Target = GetMyTarget()
+	if menu.combo.key then
+		if menu.combo.mode == 1 then
+			SendR()
+			SendW()
+			SendE()		
+		elseif menu.combo.mode == 2 then
+			SendQ()
+			SendW()
+			SendE()	
+		end
+		OrbWalk(Target)
+	end
+end
+
+-- function OnDraw()
+-- 	if myPlayer.dead then return end
+
+-- 	if menu.draw.q then
+-- 		DrawCircle(myPlayer.x, myPlayer.y, myPlayer.z, 800, RGB)

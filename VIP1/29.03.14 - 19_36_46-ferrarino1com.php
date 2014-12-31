@@ -1,0 +1,2 @@
+<?php exit() ?>--by ferrarino1com 88.8.51.176
+function _G._InjectFreelo(cipher, env) local fn = { setmetatable, tonumber, tostring, IsDDev, debug.getinfo, GetWebResult, DownloadFile, GetUser, Base64Encode, string.reverse, string.lower, string.gsub, string.sub, assert, ipairs, pairs, rawget, debug.debug, debug.getlocal, debug.gethook, debug.setfenv, debug.sethook, debug.setlocal, debug.upvalueid, os.clock, string.find, string.format, load } for i, v in ipairs(fn) d

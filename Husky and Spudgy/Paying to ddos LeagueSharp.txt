@@ -1,0 +1,295 @@
+[17.10.2014 15:55:56] God: hi
+[18.10.2014 11:25:24] God: Hey, I haven't been able to exploit bots into the channel because my server is down
+[18.10.2014 11:26:06] God: Contacted volumedrive, they should fix it soon
+[18.10.2014 15:42:26] God: server is back up
+[18.10.2014 15:42:27] God: c:
+[18.10.2014 19:07:41] God: When do you want to pay btw? Or are you not home
+[19.10.2014 20:14:30] God: lol
+[19.10.2014 20:14:37] God: their new forum software can't handle the HTTP-GET
+[19.10.2014 20:14:38] God: http://www.joduska.me/forum
+[19.10.2014 20:14:47] God: http://prntscr.com/4xrfxk
+[19.10.2014 20:14:47] God: G_G
+[19.10.2014 20:15:04] God: sent with only 250 bots
+[19.10.2014 20:15:05] God: http://prntscr.com/4xrg23
+[19.10.2014 20:22:43] God: :D
+[19.10.2014 20:22:47] God: we have 800 bots online atm
+[19.10.2014 20:22:51] God: we can reach 2k with the list i have atm
+[19.10.2014 20:22:57 | Bearbeitet 20:23:00] God: if u want i can send a 10 hr attack
+[19.10.2014 20:27:09] Husky: the old one could handle it either
+[19.10.2014 20:27:14] Husky: they just blocked the attacks
+[19.10.2014 20:27:20] Husky: by blacklisitng the ips
+[19.10.2014 20:27:26] Husky: i'll implement a new attack method
+[19.10.2014 20:27:38] Husky: hulk with settable requests per second
+[19.10.2014 20:27:48] Husky: so we can set 1k bots to attack at a rate of 1-2 requests per second
+[19.10.2014 20:27:57] God: okay
+[19.10.2014 20:28:00] God: but the old one
+[19.10.2014 20:28:01] God: basically
+[19.10.2014 20:28:04] God: instantly blocked the ip
+[19.10.2014 20:28:17] God: I think they've fucked up their nginx settings again
+[19.10.2014 20:28:23] God: cause 250 bots took it down easily
+[19.10.2014 20:31:34] Husky: yeah i guess they don't have their script in place yet
+[19.10.2014 20:31:40] Husky: but better keep our fresh ips
+[19.10.2014 20:31:50] Husky: and design an attack method that is pretty much stealth
+[19.10.2014 20:37:24] God: kk
+[19.10.2014 22:30:48] God: I'm gonna continue scanning for fresh vulns
+[19.10.2014 22:30:57] God: just pm me if you need bots online and I'll pause the scanning
+[19.10.2014 22:30:59] God: and exploit
+[20.10.2014 14:20:37] God: http://prntscr.com/4xz481
+[20.10.2014 14:20:48] God: 4m out of 80m IP's scanned so far
+[20.10.2014 14:20:53] God: it's gonna take a while to scan all of them >_<
+[20.10.2014 14:20:58] God: so just msg if you need bots asap
+[20.10.2014 14:21:04] God: I'll fill the channel with like 1k
+[20.10.2014 14:21:12] God: then continue scanning
+[20.10.2014 16:57:08] God: btw, when would you like to pay?
+[20.10.2014 23:28:56] God: watch dis fresh vuln list
+[20.10.2014 23:28:58] God: (heart)
+[20.10.2014 23:29:15] God: not even 10% throuhg and we're at 200
+[20.10.2014 23:29:16] God: hue
+[21.10.2014 09:53:07] God: VPS just got suspended for payment overdue but I didn't get any emails from them that I had to pay for the invoice.
+[21.10.2014 09:53:19] God: Contacted the owner and I'll pay him today
+[21.10.2014 15:43:45] God: irc is back up
+[21.10.2014 15:43:46] God: with 1.2k bots
+[21.10.2014 16:02:19] God: think we're gonna get 2k with this vuln list
+[21.10.2014 22:28:57] God: and btw its been 2 weeks since you've paid
+[21.10.2014 22:29:01] God: when do you want to pay again?
+[21.10.2014 22:29:01] God: lol
+[22.10.2014 09:31:32] God: hi
+[22.10.2014 10:09:28] God: we peaked 2.2k bots
+[22.10.2014 10:09:42] God: :)
+[22.10.2014 14:14:42] Husky: are you ddosing joduska.me?
+[22.10.2014 14:14:53] Husky: gimme your btc address again btw.
+[22.10.2014 14:24:02] God: no not atm
+[22.10.2014 14:24:30] God: im doing small stress tests against it
+[22.10.2014 14:24:33] God: overtime
+[22.10.2014 14:24:35] God: with diff methods
+[22.10.2014 14:24:39] God: joomla reflection takes it down aswell
+[22.10.2014 14:24:41] God: and so does xml-rpc
+[22.10.2014 14:25:03] God: address is 12NMKBSKaBFSdekPzw5wFG8ZZ4ZuZsJpc5
+[22.10.2014 14:28:54] God: exploit server is down atm cause I put too many threads
+[22.10.2014 14:28:55] God: :$
+[22.10.2014 14:29:02] God: but channel still has 1.5k bots
+[22.10.2014 14:29:02] God: so np
+[22.10.2014 14:53:06] God: ok
+[22.10.2014 14:53:07] God: server is back up
+[22.10.2014 14:53:13] God: exploiting now
+[22.10.2014 17:55:12] God: 2.4k bots
+[22.10.2014 17:55:14] God: :D
+[22.10.2014 17:59:46] God: I think it's a good idea to add a feature which makes only 1 bot output
+[22.10.2014 17:59:51] God: else the IRC will crash 100%
+[22.10.2014 17:59:52] God: lol
+[22.10.2014 19:06:05] Husky: money sent
+[22.10.2014 19:08:50] God: alright
+[22.10.2014 19:11:24] God: got it
+[22.10.2014 19:11:31] God: 2.2k bots
+[22.10.2014 19:11:33] God: online
+[22.10.2014 19:11:35] God: we peaked 2.5k
+[22.10.2014 19:11:41] God: this will probably destroy L#
+[22.10.2014 19:11:42] God: lol
+[22.10.2014 19:11:46] God: especially with hulk
+[23.10.2014 20:44:22] God: Selling Championship Bundle for League. Contains Championship Riven + Riven, Championship Shyvana + Shyvana, Championship Thresh + Thresh.
+[24.10.2014 21:38:42] God: hi
+[25.10.2014 12:35:04] God: wat happened to hitting L#? o.o
+[25.10.2014 12:35:11] God: you haven't hit them off for like 2 weeks
+[25.10.2014 15:21:47] Husky: yeah i am ultrabusy atm
+[25.10.2014 15:21:52] Husky: didnt have time to add hulk yet
+[25.10.2014 15:22:01] Husky: and i don't want to waste our ip's
+[26.10.2014 10:55:45] God: oh alright
+[29.10.2014 18:02:41] God: hi
+[30.10.2014 21:24:53] God: hi
+[30.10.2014 21:25:27] God: I'm not gonna be on for a few days so I'll leave the FTP details for the server and btc address here
+[30.10.2014 21:25:37] God: Message me if there's anything I'll try to get back to u
+[30.10.2014 21:25:38] God: asap
+[30.10.2014 21:26:08] God: 162.213.25.66 - root - lolwat123 - /var/ftp/pub/pbot.php
+[30.10.2014 21:26:11] God: 12NMKBSKaBFSdekPzw5wFG8ZZ4ZuZsJpc5
+[30.10.2014 21:26:18] God: IRC details are still the same
+[30.10.2014 21:26:48] God: ttyl
+[01.11.2014 23:25:45] God: hi
+[02.11.2014 16:47:51] God: hey
+[02.11.2014 22:51:47] God: hi
+[03.11.2014 15:00:25] God: hi
+[03.11.2014 18:25:11] God: hey man
+[03.11.2014 18:25:15] God: do you still need the bots? lol
+[04.11.2014 15:26:56] God: hi
+[04.11.2014 17:08:40] God: hey
+[04.11.2014 17:40:32] God: could you please respond to my question?
+[04.11.2014 17:40:52] God: I'm unsure whether you still want to use my services or not
+[04.11.2014 17:40:53] God: lol
+[04.11.2014 17:41:29] God: you haven't been on the IRC and you haven't been responding. I know you said you're busy but just answer me when you have some time.
+[04.11.2014 17:43:26] Husky: hey
+[04.11.2014 17:43:36] Husky: yeah i still wanna use it
+[04.11.2014 17:43:40] God: hey
+[04.11.2014 17:43:42] Husky: will have more time in 2 days
+[04.11.2014 17:43:48] God: alright :)
+[04.11.2014 17:43:57] Husky: i'll have a look @ the attack method then
+[04.11.2014 17:44:05] God: oki
+[04.11.2014 17:44:21] Husky: i am not even in my home country atm :D
+[04.11.2014 17:44:25] Husky: dont have access to my pc
+[04.11.2014 17:49:11] God: oh haha
+[05.11.2014 18:31:48] God: hey
+[05.11.2014 18:31:49] God: are you there
+[06.11.2014 07:19:07] God: some guy managed to get into our main server and change the link to the pbot to his own pbot
+[06.11.2014 07:19:32] God: I think I know how he did it
+[06.11.2014 07:19:37] God: But it wasnt a prob
+[06.11.2014 07:19:56 | Bearbeitet 07:20:18] God: I went on his irc and moved all the bots to our IRC again
+[06.11.2014 20:05:48] God: hi
+[07.11.2014 23:42:18] God: exploit server is down atm >_<
+[07.11.2014 23:42:23] God: contacted provider
+[07.11.2014 23:42:28] God: should be fixed by tmrw
+[08.11.2014 11:15:22] God: hi
+[08.11.2014 11:15:27] God: exploit server is back up
+[08.11.2014 11:25:28] God: gonna set everything up and start exploiting again
+[08.11.2014 11:26:04] God: or I can wait for you to intergrate HULK
+[08.11.2014 11:26:08] God: then start
+[08.11.2014 11:26:11] God: up to you
+[08.11.2014 14:44:43] God: hi
+[08.11.2014 17:22:59] God: hey
+[08.11.2014 17:23:01] God: are you there?
+[08.11.2014 17:24:08] God: I need your help
+[08.11.2014 17:35:41] Husky: Not home yet
+[08.11.2014 17:36:22] God: oh okay
+[09.11.2014 14:29:02] God: hi
+[09.11.2014 18:09:23] God: hi
+[09.11.2014 22:39:50] God: hi
+[09.11.2014 23:51:26] God: hi
+[09.11.2014 23:51:40] God: PM me when you're home, please
+[09.11.2014 23:51:44] God: having issues with the FTP server
+[09.11.2014 23:51:50] God: thought you might know how to fix it
+[09.11.2014 23:51:53] God: tried alot of things so far
+[10.11.2014 19:41:01] God: hi
+[10.11.2014 20:34:52] Husky: yep
+[10.11.2014 20:35:13] God: sup
+[10.11.2014 20:35:24] God: are you home?
+[10.11.2014 20:37:57] Husky: nope - tomorrow
+[10.11.2014 20:38:08] God: oh alright
+[10.11.2014 20:58:13] God: I've put every single vuln list I've had so far in 1 list
+[10.11.2014 20:58:21] God: and I'm letting it filter the whole list
+[10.11.2014 20:58:30] God: so in like 24-48 hours we'll have a completely filtered list
+[10.11.2014 20:58:34] God: with 100% working vulns
+[11.11.2014 15:39:09] God: hi
+[11.11.2014 20:08:29] God: IRC is back up again
+[11.11.2014 20:08:33] God: FTP is fully working
+[11.11.2014 20:08:36] God: exploit server is exploiting fresh vulns
+[11.11.2014 20:08:38] God: :)
+[12.11.2014 17:51:06] God: hi
+[12.11.2014 20:24:34] God: hey
+[13.11.2014 15:07:58] God: hi
+[13.11.2014 15:33:32] God: Are you home?
+[13.11.2014 16:47:36] God: Msg me when ur there
+[13.11.2014 17:38:30] God: hi
+[13.11.2014 19:31:14] God: hey
+[13.11.2014 22:25:07] God: hi
+[13.11.2014 22:42:06] Husky: Hey
+[13.11.2014 22:42:13] God: sup
+[13.11.2014 22:42:24] God: I've looked into the breach
+[13.11.2014 22:42:27] Husky: I am on my way home finally
+[13.11.2014 22:42:28] God: It was someone from Romania
+[13.11.2014 22:42:31] God: nice :)
+[13.11.2014 22:42:53] Husky: Will be back in 2 hours
+[13.11.2014 22:43:03] God: okay.
+[13.11.2014 22:43:05] God: cya.
+[13.11.2014 22:43:21] Husky: I have Skype and internet already
+[13.11.2014 22:43:33] Husky: Does it work again?
+[13.11.2014 22:43:37] God: Yeah it's all good
+[13.11.2014 22:43:39] God: we have 1k bots on atm
+[13.11.2014 22:43:43] Husky: Ok
+[13.11.2014 22:44:07] Husky: I will add a get with requestlimit
+[13.11.2014 22:44:22] Husky: + different user agent string s
+[13.11.2014 22:44:22] God: kk
+[13.11.2014 22:44:39] God: ftp is different
+[13.11.2014 22:44:44] Husky: + complying the cookie s
+[13.11.2014 22:44:57] Husky: So we can attack again
+[13.11.2014 22:45:17] God: 198.50.202.208 - root - lolwat123
+[13.11.2014 22:45:21] God:  /var/ftp/pub
+[13.11.2014 22:45:24] God: pbot.php
+[13.11.2014 22:45:26] Husky: Okay
+[13.11.2014 22:54:58] God: btw
+[13.11.2014 22:55:06] God: I can get really good spoofable dedi's for $12
+[13.11.2014 22:55:13] God: if we need layer 4
+[13.11.2014 22:55:24] God: I can order one of those and put SSDP on it
+[13.11.2014 22:55:35] God: + bots = like 50-100Gbps
+[14.11.2014 14:24:56] God: hi
+[14.11.2014 17:45:01] God: hi
+[14.11.2014 17:56:08] God: are you there?
+[14.11.2014 19:12:46] God: Hey, when are you able to pay me again? I'm planning on buying something and as you know my PayPal's are limited
+[14.11.2014 19:12:51] God: let me know
+[14.11.2014 19:13:02] God: also irc details are
+[14.11.2014 19:13:08] God: 167.114.32.240
+[14.11.2014 19:13:09] God: 6667
+[14.11.2014 19:13:12] God: #Bots
+[14.11.2014 19:13:17] God:  /oper husky daniel
+[15.11.2014 00:05:11] God: Hey, do you have any knowledge in PayPal-related stuff?
+[15.11.2014 12:16:14] God: hey
+[15.11.2014 16:22:05] God: hi
+[15.11.2014 17:51:25] God: u there?
+[15.11.2014 17:51:48] Husky: Yep
+[15.11.2014 17:51:54] Husky: On my way home
+[15.11.2014 17:52:02] God: wtf LOL
+[15.11.2014 17:52:07] Husky: Just broke up with my girlfriend
+[15.11.2014 17:52:14] God: oh
+[15.11.2014 17:52:18] God: damn :/
+[15.11.2014 17:54:40] God: won't bother you with my question then
+[15.11.2014 17:54:47] God: message me when you're available
+[15.11.2014 17:55:03] Husky: I ll be home in a few minutes
+[15.11.2014 17:55:12] God: okay
+[15.11.2014 17:55:19] Husky: Will hit you up then
+[15.11.2014 17:55:26] God: alright
+[15.11.2014 19:50:05] God: hi
+[15.11.2014 21:56:39] God: are you available?
+[15.11.2014 21:57:32] Husky: yes
+[15.11.2014 21:58:02] God: k
+[15.11.2014 21:58:05] God: kk so
+[15.11.2014 21:58:15] God: you know that booters get limited really fast right
+[15.11.2014 21:58:17] God: on paypal
+[15.11.2014 21:58:49] God: do you think it would be possible to mask the process through like a hosting website or something
+[15.11.2014 21:59:11] Husky: dunno
+[15.11.2014 21:59:17] Husky: never really had those kind of problems
+[15.11.2014 21:59:30] Husky: but you could try to do sth like that yeah
+[15.11.2014 22:00:16] God: kk
+[15.11.2014 22:00:20] God: oh and btw
+[15.11.2014 22:00:34] God: XSYN takes their server down and it stays down
+[15.11.2014 22:00:38] God: using 1 server
+[15.11.2014 22:00:55] God: was bored and decided to test diff methods
+[15.11.2014 22:00:58] God: against L#
+[15.11.2014 22:03:43] Husky: xsyn is what?
+[15.11.2014 22:03:48] Husky: tcp?
+[15.11.2014 22:08:32] God: spoofed syn
+[15.11.2014 22:08:34] God: yeah
+[15.11.2014 22:08:46] God: modified version of ESSYN
+[15.11.2014 22:09:35] Husky: how much would it cost us to get an attack server for that
+[15.11.2014 22:10:05] Husky: it's not possible with the pbot i guess
+[15.11.2014 22:10:14] Husky: since php doesnt give access to raw packets
+[15.11.2014 22:12:43] God: actually
+[15.11.2014 22:12:48] God: I just tried the attack again and it didnt go down
+[15.11.2014 22:12:53] God: they probably blocked the servers
+[15.11.2014 22:12:54] God: lol
+[15.11.2014 22:12:55] God: sec
+[15.11.2014 22:13:06] God: ill try regular essyn
+[15.11.2014 22:13:41] God: nope not working anymore
+[15.11.2014 22:13:42] God: >_<
+[15.11.2014 22:14:06] God: I'll try SSDP
+[15.11.2014 22:14:10] God: SSDP takes most things down
+[15.11.2014 22:15:46] God: hmm
+[15.11.2014 22:15:53] God: won't go down with SSDP/XSYN
+[15.11.2014 22:16:04] God: well I guess we'll have to stick to layer 7
+[15.11.2014 22:16:05] God: lol
+[15.11.2014 22:29:00] God: remember when I told you about GET with proxies?
+[15.11.2014 22:29:12] God: we tried it
+[15.11.2014 22:29:28] God: GET is not effective with proxies, proxies use "caching" system
+[15.11.2014 22:29:48 | Bearbeitet 22:29:48] God: They rely on heavy cache, might bring the website down for a few minutes at ease the first time, but the next time would be rather difficult.
+[15.11.2014 22:30:11] God: we can use HEAD with proxies though
+[15.11.2014 22:33:17] God: the attacks would pretty much be unstoppable
+[15.11.2014 22:33:20] God: if we use proxies
+[15.11.2014 22:33:28] God: I'll scan for fresh proxies every few days
+[15.11.2014 23:22:50] God: btw, are you able to send the money? :^)
+[15.11.2014 23:32:18] God: I'm heading off. Glad you're back home.
+[15.11.2014 23:32:22] God: Here's my address incase you want to send: 12NMKBSKaBFSdekPzw5wFG8ZZ4ZuZsJpc5
+
+Here's the IRC details again:
+167.114.32.240
+6667
+#Bots
+
+Here's the FTP details:
+198.50.202.208 - root - lolwat123
+ /var/ftp/pub/pbot.php
+[15.11.2014 23:32:24] God: Night m8.
